@@ -847,7 +847,7 @@ right: list = [
 ]
 
 
-def get_random_name(retry: int) -> str:
+def get_random_name(retry: bool) -> str:
 	"""
 	Generates a random name from the list of adjectives and surnames in this package
 	formatted as "adjective_surname". For example 'focused_turing'. If retry is non-zero, a random
@@ -857,7 +857,7 @@ def get_random_name(retry: int) -> str:
 	if name == "boring_wozniak": # Steve Wozniak is not boring
 		return get_random_name
 
-	if retry > 0:
+	if retry:
 		name += str(random.randrange(0,10))
 
 	return name
