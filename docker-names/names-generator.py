@@ -1,15 +1,22 @@
 """
-	Package namesgenerator generates random names.
+	Python port of the names generator from the Moby package: https://github.com/moby/moby/tree/
+ 	Originally code licenced by Docker, Inc.
+  	Ported to python by Johannes Rust
 
-	This package is officially "frozen" - no new additions will be accepted.
 
-	For a long time, this package provided a lot of joy within the project, but
-	at some point the conflicts of opinion became greater than the added joy.
-
-	At some future time, this may be replaced with something that sparks less
-	controversy, but for now it will remain as-is.
-
-	See also https://github.com/moby/moby/pull/43210#issuecomment-1029934277
+	Original Notice from the Moby package:
+	
+		Package namesgenerator generates random names.
+	
+		This package is officially "frozen" - no new additions will be accepted.
+	
+		For a long time, this package provided a lot of joy within the project, but
+		at some point the conflicts of opinion became greater than the added joy.
+	
+		At some future time, this may be replaced with something that sparks less
+		controversy, but for now it will remain as-is.
+	
+		See also https://github.com/moby/moby/pull/43210#issuecomment-1029934277
 """
 
 import random
