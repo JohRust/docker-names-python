@@ -16,3 +16,5 @@ Just copy the docker names folder into your project and import it as a module.
     'practical_banach'
     >>> names_generator.get_random_name(retry=1)
     'kind_fermi1'
+# See also
+https://github.com/beasteers/randomname for more complex random name generation.
