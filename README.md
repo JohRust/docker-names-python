@@ -11,8 +11,8 @@ Use the retries param to appent
 Just copy the docker names folder into your project and import it as a module.
 
 # Usage
-    >>> from docker_names import names_generator
-    >>> names_generator.get_random_name(retry=0)
+    >>> import docker_names
+    >>> docker_names.get_random_name(retry=0)
     'practical_banach'
-    >>> names_generator.get_random_name(retry=1)
+    >>> docker_names.get_random_name(retry=1)
     'kind_fermi1'
